@@ -3,6 +3,7 @@ version: '3'
 services:
   web:
     image: tonywell/angulardev
+    restart: always
     stdin_open: true
     tty: true
     privileged: true
